@@ -80,3 +80,12 @@ body {
   transform: sacale(1.1);
   background: #6f99ce;
 }
+
+.todo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#task-list {
+    width: 100%; 
+}
