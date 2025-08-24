@@ -55,6 +55,28 @@ body {
     border: none;
     outline: none;
     border-radius: 22px;
-    background: rgba(155, 169, 231, 0.748);
-    color: #bdbdbd;
+    background: rgba(255,194,209,0.3);
+    color: #43a6bc;
+}
+.input-area input::placeholder {
+    color: #255687;
+   
+}
+.input-area button {
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.1rem;
+    background: #84aee9;
+    border: 2px solid rgba(159, 163, 179, 0.18);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.input-area button:hover {
+  transform: sacale(1.1);
+  background: #4d58ca;
 }
