@@ -42,3 +42,9 @@ body {
 .todo-app h1 {
     font-size: 2rem;
 }
+.input-area {
+    display: flex;
+    justify-content: sapace-between;
+    align-items: center;
+    width: 100%;
+}
