@@ -14,7 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     background: url(./images/background.jpg) no-repeat center center fixed;
-    
+
 }
 .container {
     display: flex;
@@ -26,7 +26,7 @@ body {
 .todo-app {
     width: 100%;
     max-width: 400px;
-    
+
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@ body {
 }
 .input-area {
     display: flex;
-    justify-content: sapace-between;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -60,7 +60,7 @@ body {
 }
 .input-area input::placeholder {
     color: #255687;
-   
+
 }
 .input-area button {
    display: flex;
@@ -81,8 +81,7 @@ body {
   background: #6f99ce;
 }
 
-.todos-container {
-    width: 100%;
+.todo-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,31 +131,4 @@ body {
     flex: 1;
     margin-left: 10px;
     word-wrap: break-word;
-}
-.task-buttons {
-    display: flex;
-    gap: 10px;
-    margin-right: auto;
-}
-.task-buttons button {
-    background: rgba(194, 204, 255, 0.3);
-    border:none;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    color: #fff;
-    font-size: 0.8rem;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.task-buttons button:hover {
-   transform: scale(1.2);
-}
-.task-buttons .edit-btn {
-    background: #ffbf00;
-}
-.task-buttons .delete-btn {
-    background: #ff4c4c;
 }
