@@ -3,10 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const addTaskBtn = document.getElementById('add-task-btn');
     const taskList = document.getElementById('task-list');
     const emptyImage = document.querySelector('.empty-image');
+    const todosContainer = document.querySelector('.todos-container');
 
     const toggleEmptystate = () => {
         emptyImage.style.display = taskList.children.
         length === 0 ? 'block' : 'none';
+        todosContainer.style.width = taskList.
+        children.length > 0 ? '100%' : '50%';
     };
 
     const addTask = (event) => {
