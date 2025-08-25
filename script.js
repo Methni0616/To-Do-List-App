@@ -3,10 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const addTaskBtn = document.getElementById('add-task-btn');
     const taskList = document.getElementById('task-list');
     const emptyImage = document.querySelector('.empty-image');
+    const todosContainer = document.querySelector('.todos-container');
 
     const toggleEmptystate = () => {
         emptyImage.style.display = taskList.children.
         length === 0 ? 'block' : 'none';
+        todosContainer.style.width = taskList.children.length > 0 ? '100%' : '50%';
     };
 
     const addTask = (event) => {
@@ -25,6 +27,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button class="delete-btn"><i class="fa-solid fa-trash"></i></button>
             </div>
         `;
+        const checkbox = li.querySelector('.checkbox');
+        const editBtn = li.querySelector('.edit-btn');
+
+        if(completed){
+            li.classList.add('completed');
+            editBtn.disabled = true;
+            editBtn.style.opacity = 0.5;
+            editBtn.style.pointerEvents = 'none';
+        }
+
+        checkbox.addEventListener('change', () => {
+
+        editBtn.addEventListener('click', () => {
+            if(!checkbox.checked){
+                taskInput.value = li.querySelector('span').textContent;
+                li.remove();
+                toggleEmptystate();
+            }
+            });
+
+        li.querySelector('.delete-btn').addEventListener('click', () => {
+            taskList.removeChild(li);
+            li.remove();
+            toggleEmptystate();
+        });
 
         taskList.appendChild(li);
         taskInput.value = '';
