@@ -11,17 +11,18 @@
 <body>
     <div class="container">
         <div class="todo-app">
-
             <h1>To-do App</h1>
-            <div class="satat-container">
+            <div class="stat-container">
                 <div class="deatails">
                     <h3>Keep it up!</h3>
-                    <div id="progress"></div>
+                    <div id="progressbar">
+                        <div id="progress"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="stats-number">
-                <p id="numbers">0 / 0</p>
-            </div>
+                <div class="stats-number">
+                   <p id="numbers">0 / 0</p>
+                </div>
+            </div>    
             <form class="input-area">
                 <input type="text" id="task-input" placeholder="Add a new task..." />
                 <button type="submit" id="add-task-btn"><i class="fa-solid fa-plus"></i></button>
