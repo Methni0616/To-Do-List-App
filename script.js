@@ -29,6 +29,23 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
 
+        const checkbox = li.querySelector('.checkbox');
+        const editBtn = li.querySelector('.edit-btn');
+
+        editBtn.addEventListener('click', () => {
+            if (!checkbox.checked) {
+                taskInput.value = li.querySelector('span').textContent;
+                li.remove();    
+                toggleEmptystate();
+            }
+
+        });    
+
+        li.querySelector('.delete-btn').addEventListener('click', () => {
+            li.remove();
+            toggleEmptystate();
+        });
+
         taskList.appendChild(li);
         taskInput.value = '';
         toggleEmptystate();
