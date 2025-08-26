@@ -42,6 +42,16 @@ body {
 .todo-app h1 {
     font-size: 2rem;
 }
+.stat-container {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
 .input-area {
     display: flex;
     justify-content: space-between;
