@@ -73,6 +73,17 @@ body {
     border-radius: 20px;
     transition: width 0.3s ease;
 }
+#numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: rgba(255,255,255,0.3);
+    font-weight: bold;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
 .input-area {
     display: flex;
     justify-content: space-between;

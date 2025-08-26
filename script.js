@@ -67,11 +67,16 @@ document.addEventListener('DOMContentLoaded', () => {
         toggleEmptystate();
     };
 
-    addTaskBtn.addEventListener('click', () => addTask());
-    taskInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-        e.preventDefault();
-            addTask();
-        }
-    });
+   addTaskBtn.addEventListener('click', (e) => {
+    e.preventDefault();   // stop form from refreshing
+    addTask();
+});
+
+taskInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        e.preventDefault();   // stop Enter from submitting form
+        addTask();
+    }
+});
+
 });
