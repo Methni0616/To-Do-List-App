@@ -114,7 +114,7 @@ You can add screenshots here later:
 <img src="images/screenshot4.png" width="400"/>
 
 ### Progress bar
-<img src="images/screenshot4.png" width="400"/>
+<img src="images/screenshot3.png" width="400"/>
 
 ---
 
