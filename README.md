@@ -104,10 +104,11 @@ Follow these simple steps to run the project locally:
 
 You can add screenshots here later:
 
-```markdown
-![To-Do List UI](images/screenshot1.png)
-![Adding Tasks](images/screenshot2.png)
-```
+### Main UI
+![Main UI](images/screenshot1.png)
+
+### Adding a Task
+![Adding Task](images/screenshot2.png)
 
 ---
 
