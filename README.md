@@ -105,10 +105,16 @@ Follow these simple steps to run the project locally:
 You can add screenshots here later:
 
 ### Main UI
-![Main UI](images/screenshot1.png)
+<img src="images/screenshot1.png" width="400"/>
 
 ### Adding a Task
-![Adding Task](images/screenshot2.png)
+<img src="images/screenshot2.png" width="400"/>
+
+### Complete a Task
+<img src="images/screenshot4.png" width="400"/>
+
+### Progress bar
+<img src="images/screenshot4.png" width="400"/>
 
 ---
 
