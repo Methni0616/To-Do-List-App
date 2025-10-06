@@ -100,9 +100,9 @@ Follow these simple steps to run the project locally:
 
 ---
 
-## 🖼 Screenshots (Optional)
+## 🖼 Screenshots 
 
-You can add screenshots here later:
+
 
 ### Main UI
 <img src="images/screenshot1.png" width="400"/>
