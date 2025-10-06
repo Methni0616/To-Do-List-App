@@ -12,7 +12,7 @@
 - [Project Structure](#project-structure)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Screenshots (Optional)](#screenshots-optional)
+- [Screenshots](#screenshots)
 - [Future Improvements](#future-improvements)
 - [Contributors](#contributors)
 - [License](#license)
@@ -58,13 +58,13 @@ To-Do-List-App/
 ├── index.html
 ├── style.css
 ├── script.js
-├── images/           # (optional - icons, background, etc.)
+├── images/           ( icons, background, etc.)
 └── README.md
 ```
 
-> *The structure may vary slightly depending on your final file organization.*
 
----
+
+
 
 ## ⚙️ Setup Instructions
 
